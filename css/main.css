@@ -1,39 +1,65 @@
 /* Inserta tu código aqui */
 
 header {
-	background-color: grey;
+	background-color: #FF5252;
+	color: 	#8B0000;
+}
+
+body {
+	background-color: #FFF9C4;
 }
 
 /*col-6*/
-.nav-tabs {
-	background-color: black;
-	color: white;
+.nav .nav-tabs {
+	background-color: #E9967A;
+}
+
+.presentation a {
+	color: 	#8B0000;
 }
 
 .bot {
-	background-color: grey;
+	background-color: #FF5252;
 	height: 40px;
 	width: 200px;
 	color: white;
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 20px; 
+	padding: 9px;
+}
+ 
+.bot:hover{
+   width: 100%;
+   transition: all 2s ease;
 }
 
 .historia-dest img {
 	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.historia-dest {
+	color: #8B0000;
+	text-align: center;
 }
 
 /*col-4*/
 
 .bot2 {
-	background-color: grey;
+	background-color: #FF5252;
 	height: 40px;
 	width: 200px;
 	color: white;
 	text-align: center;
 	margin-bottom: 20px;
-	margin-top: 20px; 
+	margin-top: 20px;
+	padding: 9px; 
+}
+
+.bot2:hover{
+   width: 100%;
+   transition: all 2s ease;
 }
 
 .hist-dest2 iframe {
@@ -45,24 +71,40 @@ header {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	max-width: 100%;
+	text-align: center;
 }
 
-.Agenda h5{
-	background-color: grey;
+.Agenda-bot{
+	background-color: #FF5252;
 	height: 40px;
 	width: 200px;
 	color: white;
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	padding: 4px; 
+}
+
+.Agenda-bot:hover{
+   width: 100%;
+   transition: all 2s ease;
 }
 
 .fecha {
-	background-color: grey;
+	background-color: #FF5252;
 	width: 70px;
 	height: 70px;
-	color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-radius: 50px;
 }
+
+.fecha:hover{
+   width: 100%;
+   transition: all 2s ease;
+}
+
 
 /*col-2*/
 
@@ -70,3 +112,25 @@ header {
 	list-style: none;
 }
 
+.info a {
+		color: 	#8B0000;
+
+}
+
+/*footer*/
+
+.listas {
+	display: inline;
+	color: #8B0000;
+	text-align: center;
+}
+
+.listas li{
+	list-style: none;
+	color: #8B0000;
+}
+
+.retiros .glyphicon li span a{
+	text-align: center;
+
+}
