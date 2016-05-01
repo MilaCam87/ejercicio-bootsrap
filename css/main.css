@@ -1,0 +1,72 @@
+/* Inserta tu código aqui */
+
+header {
+	background-color: grey;
+}
+
+/*col-6*/
+.nav-tabs {
+	background-color: black;
+	color: white;
+}
+
+.bot {
+	background-color: grey;
+	height: 40px;
+	width: 200px;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px; 
+}
+
+.historia-dest img {
+	max-width: 100%;
+}
+
+/*col-4*/
+
+.bot2 {
+	background-color: grey;
+	height: 40px;
+	width: 200px;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px; 
+}
+
+.hist-dest2 iframe {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.hist-dest2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+
+.Agenda h5{
+	background-color: grey;
+	height: 40px;
+	width: 200px;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.fecha {
+	background-color: grey;
+	width: 70px;
+	height: 70px;
+	color: black;
+}
+
+/*col-2*/
+
+.info li {
+	list-style: none;
+}
+
